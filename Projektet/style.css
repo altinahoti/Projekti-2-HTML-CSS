@@ -1,0 +1,128 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(altina.jpg);
+}
+header {
+	height:15vh;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;     
+	border:1px solid #fff;
+	transition:0.5s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;  
+	color:black; 
+}
+ul li a:active {
+	background-color: red;   
+	color:#000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height:auto;
+}
+.main{
+	max-width:1300px;
+	margin: auto;
+}
+.dropdown{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	transition: .5s;
+	
+}
+
+
+
+p a button{
+	position: absolute;
+	top:80%;
+	left: 30%;
+	width:15em;
+	height: 5em;
+	transform: translate(-50%,-30%);
+	font-size: 100%;
+	font-family: sans-serif 'Open sans';
+	background-color:skyblue;
+	color:white;
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 0, 0, 0, 8em;
+	transition: .5s;
+
+}
+
+p a button:hover{
+	background: blue;
+	color:white;
+	box-shadow: 5px, 5px ,15px,8em;
+	transition: .5s;
+}
+.index{
+	margin-left: 25%;
+	border:3px solid #c7d8c6;
+	border-radius: 20px;
+	color:#a9b7c0a4;
+}
+
+
+
+/*dropdown-i*/
+nav         { font-weight: bold; 
+				      color: white;
+				      border: 2px solid royalblue; 
+				      text-align: center; width: 10em;
+				       background-color: royalblue; transition: .5s;} 
+		nav ul   a    { display: none; 
+			text-align: center;
+					   list-style: none;
+					   position: static; 
+					   margin: 0; 
+					   padding: 0; transition: .5s;} 
+		nav:hover ul a { display: block}
+		nav ul li  a  { border-top: 2px solid royalblue;
+					   background-color: white; 
+					   width: 10em; 
+					   color: black;transition: .5s; }   
+		nav ul li a:hover { background-color: powderblue;transition: .5s; }
+		a{	 text-decoration: none; transition: .5s;}
+
+		span{
+			position: relative;
+			top:30px;
+			left: 45px;
+					}
+		
+nav  
+{
+	display: flex;
+	flex-direction: row;
+	position: center;
+	transition: .5s;
+}
+
+
+.height{
+	height: 400px;
+}
